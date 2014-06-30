@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --with python2
+
+override_dh_auto_test:
+
+override_dh_auto_install:
+	python setup.py install --force --root=${CURDIR}/${BUILDDIR}/debian/python-django-eztables --no-compile --install-layout=deb

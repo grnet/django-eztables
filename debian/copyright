@@ -1,0 +1,9 @@
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
+Upstream-Name: django-eztables
+Upstream-Contact: Axel Haustant <http://noirbizarre.info>
+Source: https://github.com/grnet/django-eztables
+
+Files: *
+Copyright: 2014 Axel Haustant <http://noirbizarre.info>
+Licence: GPL-3+
+ `/usr/share/common-licenses/GPL-3'
