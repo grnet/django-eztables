@@ -1,0 +1,17 @@
+Source: django-eztables
+Section: python
+Priority: optional
+Maintainer: Kostas Papadimitriou <kpap@grnet.gr>
+Build-Depends: debhelper (>= 8), python-all (>= 2.5), snf-common
+Standards-Version: 3.9.2
+XS-Python-Version: >= 2.6
+Homepage: https://github.com/grnet/django-eztables
+Vcs-Git: https://github.com/grnet/django-eztables.git
+Vcs-Browser: https://github.com/grnet/django-eztables
+
+Package: python-django-eztables
+Architecture: all
+Depends: ${misc:Depends}
+Description: jQuery DataTables django application
+ Easy integration between jQuery DataTables and Django.
+ 
