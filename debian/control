@@ -1,17 +1,20 @@
-Source: django-eztables
+Source: snf-django-eztables
 Section: python
 Priority: optional
-Maintainer: Kostas Papadimitriou <kpap@grnet.gr>
-Build-Depends: debhelper (>= 8), python-all (>= 2.5), snf-common
-Standards-Version: 3.9.2
+Maintainer: Nikos Skalkotos <skalkoto@grnet.gr>
+Build-Depends: debhelper (>= 8), python-all (>= 2.5), dh-python
+Standards-Version: 3.9.6
 XS-Python-Version: >= 2.6
 Homepage: https://github.com/grnet/django-eztables
 Vcs-Git: https://github.com/grnet/django-eztables.git
 Vcs-Browser: https://github.com/grnet/django-eztables
 
-Package: python-django-eztables
+Package: python-snf-django-eztables
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${python:Depends}
+Replaces: python-django-eztables (<< 0.3.3-2)
+Breaks: python-django-eztables (<< 0.3.3-2)
+Conflicts: python-django-eztables
 Description: jQuery DataTables django application
  Easy integration between jQuery DataTables and Django.
  

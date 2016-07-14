@@ -8,4 +8,5 @@
 override_dh_auto_test:
 
 override_dh_auto_install:
-	python setup.py install --force --root=${CURDIR}/${BUILDDIR}/debian/python-django-eztables --no-compile --install-layout=deb
+	python setup.py install --force --root=${CURDIR}/${BUILDDIR}/debian/python-snf-django-eztables --no-compile --install-layout=deb
+

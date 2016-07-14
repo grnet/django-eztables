@@ -1,3 +1,15 @@
+snf-django-eztables (0.3.3-3~jessie) jessie; urgency=low
+
+  * Rename to snf-django-eztables
+
+ -- Nikos Skalkotos <skalkoto@grnet.gr>  Thu, 14 Jul 2016 16:00:45 +0300
+
+django-eztables (0.3.3-2~jessie) jessie; urgency=low
+
+  * Rebuild for jessie
+
+ -- Filippos Giannakos <philipgian@grnet.gr>  Mon, 04 Jul 2016 11:28:36 +0300
+
 django-eztables (0.3.3-1~snf~wheezy) wheezy; urgency=low
 
   * New upstream version 
